@@ -1,0 +1,21 @@
+:root {
+  --seb-color-blue: #80cbde;
+}
+
+.seb-section-welcome {
+  /* image de fond */
+  background: url("./guzman-barquin-Qd688l1yDOI-unsplash.jpg");
+  /* position */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.seb-logo-welcome {
+  margin-bottom: 12px;
+}
+
+.seb-link {
+  color: var(--seb-color-blue);
+}
