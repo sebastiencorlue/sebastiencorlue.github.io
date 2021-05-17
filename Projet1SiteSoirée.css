@@ -1,0 +1,446 @@
+.test
+{
+
+height: 700px;
+margin-top: -57px;
+margin-left:-50px;
+margin-right: -50px;
+background: #F5F3E9;
+}
+
+a:visited
+{
+	color: #80CBDE;
+}
+header 
+{
+	position: fixed;
+	display: flex;
+    justify-content:space-around ;
+
+width: 700px;
+height: 109px;
+left: 600px;
+top: 0px;
+
+}
+.Projet
+{
+	
+
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+}
+
+.Apropos
+{
+	
+left: 71.44%;
+right: 19.19%;
+top: 23.85%;
+bottom: 44.95%;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+
+}
+
+
+
+.Contact
+{
+	
+left: 91.98%;
+right: 0%;
+top: 23.85%;
+bottom: 44.95%;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 34px;
+
+}
+
+.logoseb
+{
+position: fixed;
+left: -1.2%;
+right: 89%;
+top: 0%;
+bottom: 0%;
+
+
+}
+
+.GrandTitre
+{
+position: absolute;
+right: 73px;
+top: 120px;
+bottom: 80px;
+left: 710px;
+width: 517px;
+height: 373px;
+
+font-family: Didot;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px; 
+
+color: #80CBDE;
+}
+
+.ImageLandingSiteSoirée
+{
+position: absolute;
+width: 539px;
+height: 417px;
+left: calc(50% - 539px/2 - 288px);
+top: 195px;
+
+border: 1px solid #FFFFFF;
+
+filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
+border-radius: 10px;
+object-fit: cover;
+}
+.Sommaire
+{
+	position: absolute;
+width: 317px;
+height: 111px;
+left: calc(50% - 317px/2);
+top: 758px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+
+color: #80CBDE;
+}
+
+.Compréhensionduclientetrechercheutilisateurs
+{
+
+position: absolute;
+width: 1200px;
+height: 365px;
+left: 52px;
+top: 936px;
+}
+
+h2
+{
+	font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+
+color: #80CBDE;
+}
+p
+{
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #011317;
+
+}
+
+
+
+.TitreCourteprésentationdespersonas
+{
+position: absolute;
+width: 	450px;
+height: 33px;
+left: 52px;
+top: 1426px;
+}
+.PhotosPersonasTexteAnais
+{
+position: absolute;
+width: 491px;
+height: 403px;
+left: 121px;
+top: 1516px;
+}
+
+.PhotosPersonasTexteClément
+{
+	position: absolute;
+width: 491px;
+height: 403px;
+left: 780px;
+top: 1516px;
+}
+
+.PhotosPersonasTexteGabriel
+{
+position: absolute;
+width: 491px;
+height: 403px;
+left: 121px;
+top: 2070px;
+}
+
+.PhotosPersonasTexteMagalie
+{
+position: absolute;
+width: 491px;
+height: 403px;
+left: 780px;
+top: 2070px;
+}
+
+.cercleblanc
+{
+	position: absolute;
+width: 18px;
+height: 19px;
+left: calc(50% - 18px/2 - 485.5px);
+top: 2735px;
+border-radius: 20px;
+
+background: #F6F5EF;
+box-shadow: 1px 2px 4px 7px rgba(0, 0, 0, 0.29);
+}
+
+.cerclebleu
+{
+position: absolute;
+width: 18px;
+height: 19px;
+left: calc(50% - 18px/2 - 300.5px);
+top: 2735px;
+border-radius: 20px;
+
+background: #0137BD;
+}
+.cerclenoir
+{
+position: absolute;
+width: 18px;
+height: 19px;
+left: calc(50% - 18px/2 - 138.5px);
+top: 2735px;
+border-radius: 20px;
+
+background: #000110;
+}
+.cerclerose
+{
+position: absolute;
+width: 18px;
+height: 19px;
+left: calc(50% - 18px/2 + 46.5px);
+top: 2735px;
+border-radius: 20px;
+
+background: #FF00B8;
+}
+
+.logolafête
+{
+	position: absolute;
+left: 10.73%;
+right: 71.42%;
+top: 60%;
+bottom: 48.15%;
+border-radius: 20px;
+}
+
+.Creationdudesign
+{
+position: absolute;
+width: 1200px;
+height: 452px;
+left: 52px;
+top: 2535px;
+}
+
+.codecouleur{
+    word-spacing: 4.4em
+}
+.mockupsoiréeImageHome
+{
+	position: absolute;
+width: 581px;
+height: 762px;
+left: 35px;
+top: 3100px;
+
+background: rgba(245, 243, 233, 0.72);
+border-radius: 28px
+}
+
+.SoiréeHomeImage
+{
+	
+width: 539px;
+height: 417px;
+margin-left: 25px;
+margin-top: 25px;
+}
+.TexteSoiréeHome
+{
+
+
+text-align: center;
+}
+
+
+.mockupsoiréeQuinoussommes
+{
+position: absolute;
+width: 581px;
+height: 762px;
+left: 650px;
+top: 3100px;
+
+background: rgba(245, 243, 233, 0.72);
+border-radius: 28px;
+}
+
+.SoiréeQuinoussommes
+{
+	
+width: 539px;
+height: 417px;
+margin-left: 25px;
+margin-top: 25px;
+}
+.TexteImageSoiréeQuiNousSommes
+{
+
+text-align: center;
+}
+
+
+
+.mockupsoiréeAgenda
+{
+position: absolute;
+width: 581px;
+height: 762px;
+left: 35px;
+top: 3950px;
+
+background: rgba(245, 243, 233, 0.72);
+border-radius: 28px;
+}
+
+.SoiréeAgenda
+{
+	
+width: 539px;
+height: 417px;
+margin-left: 25px;
+margin-top: 25px;
+}
+.TexteImageSoiréeAgenda
+{
+
+text-align: center;
+}
+
+
+.mockupsoiréeGalerie
+{
+position: absolute;
+width: 581px;
+height: 762px;
+left: 650px;
+top: 3950px;
+
+background: rgba(245, 243, 233, 0.72);
+border-radius: 28px;
+}
+
+.SoiréeGalerie
+{
+	
+width: 539px;
+height: 417px;
+margin-left: 25px;
+margin-top: 25px;
+}
+.TexteImageSoiréeGalerie
+{
+margin: 20px;
+text-align: center;
+}
+
+.mockupsoiréeContact
+{
+position: absolute;
+width: 581px;
+height: 762px;
+left: 35px;
+top: 4800px;
+
+background: rgba(245, 243, 233, 0.72);
+border-radius: 28px;
+}
+
+.SoiréeContact
+{
+	
+width: 539px;
+height: 417px;
+margin-left: 25px;
+margin-top: 25px;
+}
+.TexteImageSoiréeContact
+{
+
+text-align: center;
+}
+
+.mockupsoiréeTarifFooter
+{
+position: absolute;
+width: 581px;
+height: 762px;
+left: 650px;
+top: 4800px;
+
+background: rgba(245, 243, 233, 0.72);
+border-radius: 28px;
+}
+
+.SoiréeTarifFooter
+{
+	
+width: 539px;
+height: 417px;
+margin-left: 25px;
+margin-top: 25px;
+}
+.TexteImageTarifFooter
+{
+margin: 40px;
+text-align: center;
+
+}
+
+li:visited
+{
+	color: #80CBDE
+}
