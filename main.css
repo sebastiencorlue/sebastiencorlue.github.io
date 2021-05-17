@@ -1,0 +1,40 @@
+:root {
+  --seb-color-blue: #80cbde;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.seb-section-welcome {
+  height: 100%;
+  /* image de fond */
+  background-image: url("./guzman-barquin-Qd688l1yDOI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  /* position */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seb-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 180px;
+}
+.seb-logo-welcome {
+  height: 160px;
+  margin-bottom: 18px;
+}
+
+.seb-link {
+  color: var(--seb-color-blue);
+}
+
+@media screen and (max-width: 768px) {
+  .seb-section-welcome {
+    background-size: cover;
+  }
+}
