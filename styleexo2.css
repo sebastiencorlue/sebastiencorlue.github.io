@@ -44,8 +44,8 @@ justify-content:space-around ;
 
 width: 700px;
 height: 40px;
-margin-top: 0px;
-margin-left: 600px;
+top: 0;
+left: 0;
 background: #E7E2CA;
 opacity: 0.95;
 border-radius: 0px 0px 15px 15px;
