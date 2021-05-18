@@ -1,33 +1,55 @@
-.test
+.background
 {
+display: flex;
 
-height: 700px;
-margin-top: -57px;
-margin-left:-50px;
-margin-right: -50px;
+height: 500px;
+width: 100%;
+
+
+
 background: #F5F3E9;
 }
 
+
+body
+{
+    margin: 0px;
+}
+
+
 a:visited
 {
-	color: #80CBDE;
+    color: #80CBDE;
 }
 header 
 {
-	position: fixed;
-	display: flex;
+    z-index: 999;
+    position: fixed;
+    display: flex;
     justify-content:space-around ;
 
 width: 700px;
-height: 109px;
-left: 600px;
-top: 0px;
+height: 40px;
+margin-top: 0px;
+margin-left: 600px;
 
+background: #E7E2CA;
+opacity: 0.95;
+border-radius: 0px 0px 15px 15px;
 }
+
+.fondlien:hover 
+{
+text-decoration:none;
+background-color:white;
+height: 40px;
+width: 200px;
+text-align: center;
+border-radius: 0px 0px 15px 15px;
+}
+
 .Projet
 {
-	
-
 
 font-family: Avenir;
 font-style: normal;
@@ -38,11 +60,6 @@ line-height: 34px;
 
 .Apropos
 {
-	
-left: 71.44%;
-right: 19.19%;
-top: 23.85%;
-bottom: 44.95%;
 
 font-family: Avenir;
 font-style: normal;
@@ -56,11 +73,6 @@ line-height: 34px;
 
 .Contact
 {
-	
-left: 91.98%;
-right: 0%;
-top: 23.85%;
-bottom: 44.95%;
 
 font-family: Avenir;
 font-style: normal;
@@ -72,6 +84,7 @@ line-height: 34px;
 
 .logoseb
 {
+z-index: 999;
 position: fixed;
 left: -1.2%;
 right: 89%;
@@ -80,33 +93,37 @@ bottom: 0%;
 
 
 }
-.GrandTitre
+h1
 {
-position: absolute;
-right: 73px;
-top: 120px;
-bottom: 80px;
-left: 710px;
-width: 517px;
-height: 373px;
-
-font-family: Didot;
+    font-family: Didot;
 font-style: normal;
 font-weight: normal;
-font-size: 64px;
-line-height: 81px; 
+font-size: 50px;
+line-height: 63px; 
 
 color: #80CBDE;
 }
 
+.GrandTitretopimage
+{
+  display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 1000px;
+  height: 368px;
+  margin-top: 226px;
+
+}
+
+body
+{
+    margin: 0px;
+}
+
 .WelinkLanding
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: calc(50% - 539px/2 - 288px);
-top: 195px;
-
+width: 363px;
+height: 271px;
 
 filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
 border-radius: 10px;
@@ -115,10 +132,10 @@ object-fit: contain;
 
 p
 {
-	font-family: Avenir;
+font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 16px;
 line-height: 27px;
 
 color: #011317;
@@ -129,23 +146,23 @@ h2
 	font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 24px;
+font-size: 19px;
 line-height: 33px;
 
 color: #80CBDE;
 }
 .Sommaire
 {
-	position: absolute;
-width: 317px;
-height: 111px;
-left: calc(50% - 317px/2);
-top: 758px;
 
+display: flex;
+margin: auto;
+width: 217px;
+height: 132px;
+margin-top: 79px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: 19px;
 line-height: 33px;
 
 color: #80CBDE;
@@ -153,168 +170,247 @@ color: #80CBDE;
 
 .introwelink
 {
-position: absolute;
-width: 1200px;
-height: 74px;
-
-top: 941px;
-left: 47px;
+    display: flex;
+    width: 1100px;
+    height: 61px;
+    margin-left:80px;
+    margin-top: 70px;
 }
+
 
 .imageprojet
 {
+display: flex;
+justify-content: center;
 
-text-align: center;
-position: absolute;
-
-top: 1041px;
-
+margin-top: 67px;
 
 }
 
-@media all and (min-width: 480px) 
+.ImageProjetWelink
 {
-    .ImageProjetWelink
-    {
-        width: 65%;
-        height: auto;
-    }
+width: 747px;
+height: 578px;
 }
+
+
 
 
 .TitreLaDémarcheUx
 {
-	position: absolute;
-width: 229px;
-height: 30px;
-left: 47px;
-top: 1600px;
+    display: flex;
+    width: 229px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
 
-.ParagrapheDémarcheUx
+.petittitre
 {
-	position: absolute;
-width: 1200px;
-height: 1172px;
-left: 47px;
-top: 1647px;
-text-align: left;
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+    margin-top: 56px;
 }
 
-
-@media all and (min-width: 480px) 
+.petitparagraphe
 {
-    .ParagrapheDémarcheUx
-    {
-        width: auto;
-    }
+     display: flex;
+    width: 1100px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.petittitre1
+{
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+
+}
+
+.petitparagraphe1
+{
+     display: flex;
+    width: 1100px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.petittitre2
+{
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+
+}
+
+.petitparagraphe2
+{
+     display: flex;
+    width: 1100px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.petittitre3
+{
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+}
+
+.petitparagraphe3
+{
+     display: flex;
+    width: 1100px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.petittitre4
+{
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+}
+
+.petitparagraphe4
+{
+    display: flex;
+    width: 1100px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.petittitre5
+{
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+}
+
+.petitparagraphe5
+{
+    display: flex;
+    width: 1100px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.petittitre6
+{
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+}
+
+.texteParagrapheThibaut
+{
+display: flex;
+  margin-left: 80px;
+  justify-content:space-around;
+  width: 1100px;
+  height: 114px;
+  margin-top: 37px;
 }
 
 .PersonaThibautImage
 {
-	position: absolute;
-width: 187px;
-height: 187px;
-left: 62px;
-top: 2600px;
+width: 140px;
+height: 140px;
 }
 
-@media all and (min-width: 480px) 
+
+
+.petittitre7
 {
-    .PersonaThibautImage
-    {
-        width: auto;
-    }
+    display: flex;
+    width: 343px;
+    height: 33px;
+    margin-left: 80px;
+    margin-top: 46px;
 }
 
-.texteThibaut
 
-{position: absolute;
-width: 900px;
-height: 135px;
-left: 347px;
-top: 2600px;
-}
 
-@media all and (min-width: 480px) 
+
+.petitparagraphe7
+
 {
-    .texteThibaut
-    {
-        width: auto;
-    }
+    display: flex;
+    width: 1100px;
+    height: 232px;
+    margin-left: 80px;
 }
 
-.TexteHypothèses
+
+.whim
 {
-	position: absolute;
-width: 1200px;
-height: 322px;
-left: 47px;
-top: 2850px;
+display: flex;
+justify-content: center;
+margin-top: 67px;
+
+}
+
+.ImageWhimsical
+{
+width: 747px;
+height: 578px;
 }
 
 .Créationdudesign
 {
-	position: absolute;
-width: 275px;
-height: 30px;
-left: 41px;
-top: 3200px;
+    display: flex;
+    width: 400px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
-.whim
+
+a[class="couleurlien"]:hover
 {
-
-text-align: center;
-position: absolute;
-
-top: 3247px;
-}
-
-@media all and (min-width: 480px) 
-{
-    .ImageWhimsical
-    {
-        width: 65%;
-        height: auto;
-    }
+    font-weight: bold;
 }
 
 
 .conclusionwelink
 {
-position: absolute;
-width: 1200px;
-height: 283px;
-left: 50px;
-top: 3900px;
+    display: flex;
+    width: 1100px;
+    height: 232px;
+    margin-left: 80px;
+    margin-top: 40px;
 }
 
-.Suiteduprojet
+.TitreSuiteduprojet
 {
-	position: absolute;
-width: 201px;
-height: 30px;
-left: 47px;
-top: 4250px;
+    display: flex;
+    width: 400px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
-.Suiteduprojettexte
+.Paragraphesuiteprojet
 {
-	
-position: absolute;
-width: 1200px;
-height: 382px;
-left: 47px;
-top: 4297px;
-text-align: left;
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    margin-left: 80px;
 }
 
-@media all and (min-width: 480px) 
+
+em
 {
-    .Suiteduprojettexte
-    {
-        width: auto;
-    }
+    color: red;
 }

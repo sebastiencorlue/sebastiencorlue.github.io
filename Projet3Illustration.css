@@ -1,34 +1,58 @@
-.test
+.background
 {
+display: flex;
 
-height: 700px;
-margin-top: -57px;
-margin-left:-50px;
-margin-right: -50px;
+height: 500px;
+width: 100%;
+
+
+
 background: #F5F3E9;
 }
+
+
+body
+{
+	margin: 0px;
+}
+
 
 a:visited
 {
 	color: #80CBDE;
 }
+
 header 
 {
+	z-index: 999;
 	position: fixed;
 	display: flex;
     justify-content:space-around ;
 
 width: 700px;
-height: 109px;
-left: 600px;
-top: 0px;
+height: 40px;
+margin-top: 0px;
+margin-left: 600px;
+
+background: #E7E2CA;
+opacity: 0.95;
+border-radius: 0px 0px 15px 15px;
+}
+
+
+.fondlien:hover 
+{
+
+text-decoration:none;
+background-color:white;
+height: 40px;
+width: 200px;
+text-align: center;
+border-radius: 0px 0px 15px 15px;
 
 }
 .Projet
 {
-	
-
-
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
@@ -38,12 +62,6 @@ line-height: 34px;
 
 .Apropos
 {
-	
-left: 71.44%;
-right: 19.19%;
-top: 23.85%;
-bottom: 44.95%;
-
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
@@ -52,15 +70,13 @@ line-height: 34px;
 
 }
 
-
+a[class="couleurlien"]:hover
+{
+	font-weight: bold;
+}
 
 .Contact
 {
-	
-left: 91.98%;
-right: 0%;
-top: 23.85%;
-bottom: 44.95%;
 
 font-family: Avenir;
 font-style: normal;
@@ -72,53 +88,59 @@ line-height: 34px;
 
 .logoseb
 {
+z-index: 999;
 position: fixed;
 left: -1.2%;
 right: 89%;
 top: 0%;
 bottom: 0%;
-
-
 }
 
-.GrandTitre
-{
-position: absolute;
-right: 73px;
-top: 120px;
-bottom: 80px;
-left: 600px;
-width: 517px;
-height: 373px;
 
-font-family: Didot;
+h1
+{
+	font-family: Didot;
 font-style: normal;
 font-weight: normal;
-font-size: 64px;
-line-height: 81px; 
+font-size: 50px;
+line-height: 63px; 
 
 color: #80CBDE;
 }
 
+.GrandTitretopimage
+{
+  display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 1000px;
+  height: 368px;
+  margin-top: 226px;
+
+}
+
 .IllustrationLanding
 {
-position: absolute;
-width: 392px;
-height: 353px;
-left: calc(50% - 539px/2 - 288px);
-top: 195px;
+width: 327px;
+height: 294px;
 
 
 filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
 border-radius: 10px;
 object-fit: cover;
 }
+
+body
+{
+	margin: 0px;
+}
+
 p
 {
-	font-family: Avenir;
+font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 16px;
 line-height: 27px;
 
 color: #011317;
@@ -129,23 +151,23 @@ h2
 	font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 24px;
+font-size: 19px;
 line-height: 33px;
 
 color: #80CBDE;
 }
 .Sommaire
 {
-	position: absolute;
-width: 317px;
-height: 111px;
-left: calc(50% - 317px/2);
-top: 758px;
 
+display: flex;
+margin: auto;
+width: 217px;
+height: 132px;
+margin-top: 79px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: 19px;
 line-height: 33px;
 
 color: #80CBDE;
@@ -154,120 +176,177 @@ color: #80CBDE;
 .illustrationTitre
 
 {
-	position: absolute;
+display: flex;
+
 width: 155px;
 height: 55px;
-left: 47px;
-top: 1017px;
+margin-left: 80px;
+margin-top: 115px;
 
 }
 
+.Titretournois
+{
+	display: flex;
+	width: 485px;
+	height: 30px;
+	margin-left: 80px;
+	margin-top: 1px;
+}
 .paragraphetournois
 {
-	position: absolute;
-
-height: 109px;
-left: 47px;
-top: 2419px;
+	display: flex;
+	width: 910px;
+	height: 31px;
+	margin-left: 126px;
+	margin-top: 28px;
 }
 
-.paragraphehecate
+.Titrehecate
 {
-	position: absolute;
+	display: flex;
+	width: 900px;
+	height: 35px;
+	margin-left: 80px;
+	margin-top: 50px;
+}
 
-height: 116px;
-left: 47px;
-top: 3261px;
+.ParagrapheHecate
+{
+	display: flex;
+	width: 1000px;
+	height: 54px;
+	margin-left: 126px;
+	margin-top: 15px;
 }
 
 .FilleOrangeIllustration
 {
-position: absolute;
-width: 598px;
-height: 538px;
-left: 47px;
-top: 1183px;
+
+width: 409px;
+height: 368px;
+
 }
 
 .VaseIllustration
 {
-position: absolute;
-width: 407px;
-height: 411px;
-left: 700px;
-top: 1306px;
+
+width: 286px;
+height: 289px;
+
 }
 
 .FilleRéalité
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: 47px;
-top: 1861px;
+
+width: 390px;
+height: 301px;
+
 object-fit: contain;
 }
 
 .VaseRéalité
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: 700px;
-top: 1861px;
+width: 388px;
+height: 301px;
+
 }
+
+.illustrationdiv1
+{
+  display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 1000px;
+  height: 368px;
+  margin-top: 149px;
+ 
+}
+
+.illustrationdiv2
+{
+ display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 1000px;
+  height: 390px;
+  margin-top: 200px;
+
+}
+
+.AfficheTournois
+
+{
+display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 1000px;
+  height: 390px;
+  margin-top:47px;
+}
+
 
 .Mbappe
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: 47px;
-top: 2616px;
+
+width: 390px;
+height: 301px;
 }
 
 .Neymar
 
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: 700px;
-top: 2616px;	
+width: 390px;
+height: 301px;
+	
+}
+
+.hecateImage
+{
+
+
+display: flex;
+justify-content: center;
+margin-top: 50px;
 }
 
 .Hecate
 {
-	position: absolute;
-width: 539px;
-height: 417px;
-left: 483px;
-top: 3465px;
+width: 390px;
+height: 301px;
+
 }
 
 .TitreLogos
 {
-	position: absolute;
-width: 129px;
-height: 55px;
-left: 70px;
-top: 3890px;
+	display: flex;
+	width: 129px;
+	height: 29px;
+	margin-left: 80px;
+	margin-top: 79px;
 }
 
+.LogosMockup
+{
+display: flex;
+  margin: auto;
+  justify-content:space-around;
+  width: 1000px;
+  height: 390px;
+  margin-top:50px;
+}
 .SEB
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: 47px;
-top: 4128px;
+
+width: 390px;
+height: 301px;
+
 }
 
 .FOS
 {
-position: absolute;
-width: 539px;
-height: 417px;
-left: 700px;
-top: 4128px;
+
+width: 390px;
+height: 301px;
+
 }
