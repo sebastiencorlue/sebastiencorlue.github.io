@@ -29,7 +29,7 @@ display: flex;
 justify-content:space-around ;
 
 width: 700px;
-height: 32px;
+height: 35px;
 margin-top: 0px;
 margin-left: 600px;
 background: #E7E2CA;
@@ -42,7 +42,7 @@ border-radius: 0px 0px 15px 15px;
 
 text-decoration:none;
 background-color:white;
-height: 32px;
+height: 35px;
 opacity: 0.85;
 width: 200px;
 text-align: center;
