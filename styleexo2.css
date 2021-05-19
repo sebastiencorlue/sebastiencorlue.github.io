@@ -131,10 +131,10 @@ height: 275px;
 .PrésentationProjet1
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 60px;
-  	margin-left:50px;
-  	margin-right:20px;
+  	margin-left:45px;
+  
 
 }
 
@@ -152,7 +152,7 @@ a[class="couleurlien"]:hover
 .SiteSoiréeTitre
 {
 width: 347px;
-height: 147px;
+height: 92px;
 
 
 font-family: Avenir;
@@ -197,8 +197,9 @@ color: #80CBDE;
 #ImageLandingPage
 {
     display: flex;
-    margin-top: 20px;
-  justify-content: space-around;
+    margin-top: 0px;
+  justify-content: space-between;
+  margin-right:90px;
 }
 
 .ImageLandingSiteSoirée
