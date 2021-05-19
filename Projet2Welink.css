@@ -36,6 +36,7 @@ right: 64px;
 background: #E7E2CA;
 opacity: 0.95;
 border-radius: 0px 0px 15px 15px;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.30);
 }
 
 .fondlien:hover 
