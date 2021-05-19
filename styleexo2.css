@@ -43,7 +43,7 @@ display: flex;
 justify-content:space-around ;
 
 width: 700px;
-height: 40px;
+height: 32px;
 top: 0;
 right: 64px;
 background: #E7E2CA;
@@ -56,10 +56,10 @@ border-radius: 0px 0px 15px 15px;
 
 text-decoration:none;
 background-color:white;
-height: 40px;
+height: 32px;
 width: 200px;
 text-align: center;
-opacity: 0.80;
+opacity: 0.85;
 border-radius: 0px 0px 15px 15px;
 
 }
@@ -119,8 +119,8 @@ bottom: 0%;
 
 .Photodemoi
 {
-width: 300px;
-height: 300px;
+width: 250px;
+height: 250px;
 
 }
 
@@ -201,8 +201,8 @@ color: #80CBDE;
 
 .ImageLandingSiteSoirée
 {
-width: 328.04px;
-height: 415.96px;
+width: 243px;
+height: 308px;
 
 
 border: 1px solid #FFFFFF;
@@ -214,8 +214,8 @@ border-radius: 10px;
 
 .WelinkLanding{
 
-width: 328.04px;
-height: 415.96px;
+width: 243px;
+height: 308px;
 
 
 box-sizing: border-box;
@@ -226,8 +226,8 @@ object-fit: contain;
 
 .IllustrationLanding {
 
-width: 328.04px;
-height: 415.96px;
+width: 243px;
+height: 308px;
 
 
 box-sizing: border-box;
