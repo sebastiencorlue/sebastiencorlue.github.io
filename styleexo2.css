@@ -24,8 +24,8 @@ h1
     font-family: Didot;
 font-style: normal;
 font-weight: normal;
-font-size: 50px;
-line-height: 63px; 
+font-size: 40px;
+line-height: 51px; 
 
 color: #80CBDE;
 }
@@ -70,7 +70,7 @@ border-radius: 0px 0px 15px 15px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 18px;
 line-height: 34px;
 }
 
@@ -79,7 +79,7 @@ line-height: 34px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 18px;
 line-height: 34px;
 }
 
@@ -90,7 +90,7 @@ line-height: 34px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 18px;
 line-height: 34px;
 }
 
@@ -156,7 +156,7 @@ height: 147px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 26px;
+font-size: 18px;
 line-height: 36px;
 
 color: #80CBDE;
@@ -171,7 +171,7 @@ height: 76px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 26px;
+font-size: 18px;
 line-height: 36px;
 
 color: #80CBDE;
@@ -186,7 +186,7 @@ height: 117px;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 26px;
+font-size: 18px;
 line-height: 36px;
 
 color: #80CBDE;
@@ -241,7 +241,7 @@ h2
 	font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 19px;
+font-size: 18px;
 line-height: 33px;
 
 color: #80CBDE;
